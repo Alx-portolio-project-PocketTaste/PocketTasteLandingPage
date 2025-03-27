@@ -186,7 +186,7 @@ export default function Home() {
 
       {/* YouTube Video Section */}
       <section id="video" className="max-w-7xl mx-auto px-4 py-8">
-        <h3 className="text-2xl font-bold text-[#14213D] mb-6">Watch Our Journey</h3>
+        <h3 className="text-2xl font-bold text-[#14213D] mb-6">Watch our Demo</h3>
         <div className="relative" style={{ paddingBottom: "56.25%", height: 0 }}>
           <iframe
             className="absolute top-0 left-0 w-full h-full"
