@@ -107,7 +107,7 @@ export default function Home() {
             <p className="text-gray-700 mb-2">Lead Developer & Recipe Curator</p>
             <div className="flex space-x-3">
               <a
-                href="https://www.linkedin.com/in/member1"
+                href="https://www.linkedin.com/in/abubakar-onumoh-b32574194/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
@@ -115,7 +115,7 @@ export default function Home() {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/member1"
+                href="https://github.com/KhalifahdGreat"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
@@ -123,7 +123,7 @@ export default function Home() {
                 GitHub
               </a>
               <a
-                href="https://twitter.com/member1"
+                href="https://twitter.com/kali_ops"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
@@ -139,7 +139,7 @@ export default function Home() {
             <p className="text-gray-700 mb-2">UI/UX Designer & Food Historian</p>
             <div className="flex space-x-3">
               <a
-                href="https://www.linkedin.com/in/member2"
+                href="https://www.linkedin.com/in/moyeh04/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
@@ -147,20 +147,35 @@ export default function Home() {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/member2"
+                href="https://github.com/moyeh04"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
                 GitHub
               </a>
+            </div>
+          </div>
+
+           <div className="bg-white border border-gray-200 rounded-md p-4 shadow-sm">
+            <h5 className="text-lg font-bold text-[#14213D] mb-2">Dzeble Kwamme</h5>
+            <p className="text-gray-700 mb-2">Lead Developer & Recipe Curator</p>
+            <div className="flex space-x-3">
               <a
-                href="https://twitter.com/member2"
+                href="www.linkedin.com/in/dzeble-frank-kwame"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline"
               >
-                Twitter
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/DzeBakuEso?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                GitHub
               </a>
             </div>
           </div>
@@ -190,7 +205,7 @@ export default function Home() {
         <div className="relative" style={{ paddingBottom: "56.25%", height: 0 }}>
           <iframe
             className="absolute top-0 left-0 w-full h-full"
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+            src="https://www.youtube.com/shorts/OGT8ldBbh24"
             title="Pocket Taste - Our Journey"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
