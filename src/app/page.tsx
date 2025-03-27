@@ -6,10 +6,15 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="bg-white min-h-screen flex flex-col">
+      {/* Header */}
       <header className="w-full border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <h1 className="text-2xl font-bold text-orange-600">Pocket Taste</h1>
           <nav className="space-x-4">
+            {/* Add About link here */}
+            <Link href="#about" className="text-gray-700 font-semibold hover:text-orange-600">
+              About
+            </Link>
             <Link href="/signup" className="text-gray-700 font-semibold hover:text-orange-600">
               Sign Up
             </Link>
@@ -20,6 +25,7 @@ export default function Home() {
         </div>
       </header>
 
+      {/* Hero Section */}
       <section className="flex-1 max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-8 md:mb-0 md:mr-8">
           <h2 className="text-3xl md:text-4xl font-bold text-[#14213D] mb-4">Your Go-To App for Delicious Flavors</h2>
@@ -44,6 +50,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Features Section */}
       <section className="max-w-7xl mx-auto px-4 py-8">
         <h3 className="text-2xl font-bold text-[#14213D] mb-6">Features</h3>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -65,6 +72,134 @@ export default function Home() {
         </div>
       </section>
 
+      {/* About Section */}
+      <section id="about" className="max-w-7xl mx-auto px-4 py-8">
+        <h3 className="text-2xl font-bold text-[#14213D] mb-6">About</h3>
+        {/* Updated description using an AI-generated personal story */}
+        <p className="text-gray-700 mb-4">
+          From a bustling family kitchen in my hometown, I found my passion for cooking by learning time-honored recipes
+          passed down through generations. Each dish told a story—rooted in culture, tradition, and shared memories with
+          loved ones. Over time, I realized that food connects us in ways that transcend the dinner table, uniting
+          family and friends through cherished flavors and the history behind them.
+        </p>
+        <p className="text-gray-700 mb-4">
+          Determined to preserve these culinary gems, I created Pocket Taste as a digital gathering place where family,
+          friends, and fellow food enthusiasts can share the roots of their favorite dishes. This journey has also
+          become a testament to my passion for technology and design, culminating in a Portfolio Project for{" "}
+          <a
+            href="https://www.alxafrica.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-orange-600 hover:underline font-semibold"
+          >
+            ALX
+          </a>
+          . By merging tradition and innovation, I hope to inspire others to explore the stories behind every recipe and
+          keep culinary heritage alive for future generations.
+        </p>
+
+        {/* Team/Contributor Cards */}
+        <h4 className="text-xl font-semibold text-[#14213D] mb-4">Meet the Team</h4>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {/* Card for Member 1 */}
+          <div className="bg-white border border-gray-200 rounded-md p-4 shadow-sm">
+            <h5 className="text-lg font-bold text-[#14213D] mb-2">Member 1</h5>
+            <p className="text-gray-700 mb-2">Lead Developer & Recipe Curator</p>
+            <div className="flex space-x-3">
+              <a
+                href="https://www.linkedin.com/in/member1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/member1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://twitter.com/member1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Twitter
+              </a>
+            </div>
+          </div>
+
+          {/* Card for Member 2 */}
+          <div className="bg-white border border-gray-200 rounded-md p-4 shadow-sm">
+            <h5 className="text-lg font-bold text-[#14213D] mb-2">Member 2</h5>
+            <p className="text-gray-700 mb-2">UI/UX Designer & Food Historian</p>
+            <div className="flex space-x-3">
+              <a
+                href="https://www.linkedin.com/in/member2"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://github.com/member2"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://twitter.com/member2"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:underline"
+              >
+                Twitter
+              </a>
+            </div>
+          </div>
+        </div>
+
+        {/* GitHub Repository Link */}
+        <div className="mt-6">
+          <h4 className="text-xl font-semibold text-[#14213D] mb-2">Project Repository</h4>
+          <p className="text-gray-700">
+            Explore the full source code on our{" "}
+            <a
+              href="https://github.com/yourusername/pocket-taste"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-orange-600 hover:underline font-semibold"
+            >
+              GitHub Repository
+            </a>
+            .
+          </p>
+        </div>
+      </section>
+
+      {/* YouTube Video Section */}
+      <section id="video" className="max-w-7xl mx-auto px-4 py-8">
+        <h3 className="text-2xl font-bold text-[#14213D] mb-6">Watch Our Journey</h3>
+        <div className="relative" style={{ paddingBottom: "56.25%", height: 0 }}>
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+            title="Pocket Taste - Our Journey"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+
+      {/* App Screens Section */}
       <section className="max-w-7xl mx-auto px-4 py-8">
         <h3 className="text-2xl font-bold text-[#14213D] mb-6">App Screens</h3>
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4">
@@ -99,6 +234,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Footer */}
       <footer className="bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 py-6 text-center text-sm text-gray-500">
           &copy; {new Date().getFullYear()} Pocket Taste. All rights reserved.
