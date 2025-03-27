@@ -103,8 +103,8 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           {/* Card for Member 1 */}
           <div className="bg-white border border-gray-200 rounded-md p-4 shadow-sm">
-            <h5 className="text-lg font-bold text-[#14213D] mb-2">Member 1</h5>
-            <p className="text-gray-700 mb-2">Lead Developer & Recipe Curator</p>
+            <h5 className="text-lg font-bold text-[#14213D] mb-2">Abubakar Onumoh</h5>
+            <p className="text-gray-700 mb-2">Lead Developer</p>
             <div className="flex space-x-3">
               <a
                 href="https://www.linkedin.com/in/abubakar-onumoh-b32574194/"
@@ -135,8 +135,8 @@ export default function Home() {
 
           {/* Card for Member 2 */}
           <div className="bg-white border border-gray-200 rounded-md p-4 shadow-sm">
-            <h5 className="text-lg font-bold text-[#14213D] mb-2">Member 2</h5>
-            <p className="text-gray-700 mb-2">UI/UX Designer & Food Historian</p>
+            <h5 className="text-lg font-bold text-[#14213D] mb-2">Mohammed Yehia</h5>
+            <p className="text-gray-700 mb-2">Backend Developer</p>
             <div className="flex space-x-3">
               <a
                 href="https://www.linkedin.com/in/moyeh04/"
@@ -159,7 +159,7 @@ export default function Home() {
 
            <div className="bg-white border border-gray-200 rounded-md p-4 shadow-sm">
             <h5 className="text-lg font-bold text-[#14213D] mb-2">Dzeble Kwamme</h5>
-            <p className="text-gray-700 mb-2">Lead Developer & Recipe Curator</p>
+            <p className="text-gray-700 mb-2">Data Scientist</p>
             <div className="flex space-x-3">
               <a
                 href="www.linkedin.com/in/dzeble-frank-kwame"
