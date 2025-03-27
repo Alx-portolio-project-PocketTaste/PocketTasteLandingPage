@@ -232,7 +232,7 @@ export default function Home() {
           <p className='text-gray-700'>
             Explore the full source code on our{" "}
             <a
-              href='https://github.com/yourusername/pocket-taste'
+              href='https://github.com/Alx-portolio-project-PocketTaste/PocketTasteLandingPage'
               target='_blank'
               rel='noopener noreferrer'
               className='text-orange-600 hover:underline font-semibold'>
