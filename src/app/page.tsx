@@ -249,11 +249,16 @@ export default function Home() {
           Watch our Demo
         </h3>
         <div
-          className='relative'
-          style={{ paddingBottom: "56.25%", height: 0 }}>
+          className='relative mx-auto'
+          style={{
+            paddingBottom: "56.25%",
+            height: 0,
+            maxWidth: "100%",
+            width: "1000px",
+          }}>
           <iframe
             className='absolute top-0 left-0 w-full h-full'
-            src='https://www.youtube.com/shorts/OGT8ldBbh24'
+            src='https://www.youtube.com/embed/bCnP5khmcO0'
             title='Pocket Taste - Our Journey'
             frameBorder='0'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
